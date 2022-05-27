@@ -1,5 +1,10 @@
 ## DJANGO AND POSTGRES
 
+### Если при сборке ошибка Docker-compose "exec: \"/usr/src/app/entrypoint.sh\": permission denied":
+```
+$  chmod +x ./entrypoint.sh
+```
+
 Создать образ:
 ```commandline
 $ docker-compose build
